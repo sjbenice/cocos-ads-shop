@@ -1,0 +1,182 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "69e4f064-a230-4e2f-bfd6-f220a7bee80f",
+  "files": [],
+  "subMetas": {
+    "043e8": {
+      "importer": "gltf-mesh",
+      "uuid": "69e4f064-a230-4e2f-bfd6-f220a7bee80f@043e8",
+      "displayName": "",
+      "id": "043e8",
+      "name": "Female_Hairs_01.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 226
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3d485": {
+      "importer": "gltf-material",
+      "uuid": "69e4f064-a230-4e2f-bfd6-f220a7bee80f@3d485",
+      "displayName": "",
+      "id": "3d485",
+      "name": "01.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a5348": {
+      "importer": "gltf-scene",
+      "uuid": "69e4f064-a230-4e2f-bfd6-f220a7bee80f@a5348",
+      "displayName": "",
+      "id": "a5348",
+      "name": "Female_Hairs_01.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "69e4f064-a230-4e2f-bfd6-f220a7bee80f@a5348",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "69e4f064-a230-4e2f-bfd6-f220a7bee80f@043e8"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "69e4f064-a230-4e2f-bfd6-f220a7bee80f@3d485"
+      ],
+      "scenes": [
+        "69e4f064-a230-4e2f-bfd6-f220a7bee80f@a5348"
+      ]
+    },
+    "materials": {
+      "69e4f064-a230-4e2f-bfd6-f220a7bee80f@3d485": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "DCC_APP_NAME": 1
+          },
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 115,
+              "g": 74,
+              "b": 69,
+              "a": 255
+            },
+            "albedoScale": 1.2,
+            "emissiveScale": 0,
+            "shininessExponent": 2,
+            "specularColor": {
+              "__type__": "cc.Color",
+              "r": 243,
+              "g": 243,
+              "b": 243,
+              "a": 255
+            },
+            "specularFactor": 0
+          },
+          {},
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}

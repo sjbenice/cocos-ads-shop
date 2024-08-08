@@ -1,0 +1,100 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "2ac2905a-e10b-4699-b2f3-50ad6168e51a",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "5f5e4": {
+      "importer": "gltf-animation",
+      "uuid": "2ac2905a-e10b-4699-b2f3-50ad6168e51a@5f5e4",
+      "displayName": "",
+      "id": "5f5e4",
+      "name": "carrying.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 10.066666603088379
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "5f528": {
+      "importer": "gltf-scene",
+      "uuid": "2ac2905a-e10b-4699-b2f3-50ad6168e51a@5f528",
+      "displayName": "",
+      "id": "5f528",
+      "name": "Male@carrying.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "mixamo.com",
+        "duration": 10.066666603088379,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "carrying",
+            "from": 0,
+            "to": 10.066666603088379,
+            "wrapMode": 2,
+            "previousId": "5f5e4"
+          }
+        ]
+      }
+    ],
+    "redirect": "2ac2905a-e10b-4699-b2f3-50ad6168e51a@5f528",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "2ac2905a-e10b-4699-b2f3-50ad6168e51a@5f528"
+      ]
+    }
+  }
+}

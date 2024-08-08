@@ -1,0 +1,100 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "fd59d86b-73de-4650-b256-7a74c56a9619",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "66b31": {
+      "importer": "gltf-animation",
+      "uuid": "fd59d86b-73de-4650-b256-7a74c56a9619@66b31",
+      "displayName": "",
+      "id": "66b31",
+      "name": "idle_rare_02.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 8.5
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "5acbd": {
+      "importer": "gltf-scene",
+      "uuid": "fd59d86b-73de-4650-b256-7a74c56a9619@5acbd",
+      "displayName": "",
+      "id": "5acbd",
+      "name": "Male@idle_rare_02.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 8.5,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "idle_rare_02",
+            "from": 0,
+            "to": 8.5,
+            "wrapMode": 2,
+            "previousId": "66b31"
+          }
+        ]
+      }
+    ],
+    "redirect": "fd59d86b-73de-4650-b256-7a74c56a9619@5acbd",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "fd59d86b-73de-4650-b256-7a74c56a9619@5acbd"
+      ]
+    }
+  }
+}

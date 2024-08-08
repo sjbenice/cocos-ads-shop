@@ -1,0 +1,434 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "726f5ef7-02a9-4de8-aa2c-28b1a4ff1a7b",
+  "files": [],
+  "subMetas": {
+    "30732": {
+      "importer": "gltf-skeleton",
+      "uuid": "726f5ef7-02a9-4de8-aa2c-28b1a4ff1a7b@30732",
+      "displayName": "",
+      "id": "30732",
+      "name": "UnnamedSkeleton-0.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 7
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5ea8a": {
+      "importer": "gltf-mesh",
+      "uuid": "726f5ef7-02a9-4de8-aa2c-28b1a4ff1a7b@5ea8a",
+      "displayName": "",
+      "id": "5ea8a",
+      "name": "Male_Legs_03.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 248
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ec503": {
+      "importer": "gltf-mesh",
+      "uuid": "726f5ef7-02a9-4de8-aa2c-28b1a4ff1a7b@ec503",
+      "displayName": "",
+      "id": "ec503",
+      "name": "Male_Torso_02.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 620
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "51f69": {
+      "importer": "gltf-mesh",
+      "uuid": "726f5ef7-02a9-4de8-aa2c-28b1a4ff1a7b@51f69",
+      "displayName": "",
+      "id": "51f69",
+      "name": "Male_Head_05.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 634
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f1394": {
+      "importer": "gltf-skeleton",
+      "uuid": "726f5ef7-02a9-4de8-aa2c-28b1a4ff1a7b@f1394",
+      "displayName": "",
+      "id": "f1394",
+      "name": "UnnamedSkeleton-1.skeleton",
+      "userData": {
+        "gltfIndex": 1,
+        "jointsLength": 10
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "75ee4": {
+      "importer": "gltf-skeleton",
+      "uuid": "726f5ef7-02a9-4de8-aa2c-28b1a4ff1a7b@75ee4",
+      "displayName": "",
+      "id": "75ee4",
+      "name": "UnnamedSkeleton-2.skeleton",
+      "userData": {
+        "gltfIndex": 2,
+        "jointsLength": 2
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ee31c": {
+      "importer": "gltf-material",
+      "uuid": "726f5ef7-02a9-4de8-aa2c-28b1a4ff1a7b@ee31c",
+      "displayName": "",
+      "id": "ee31c",
+      "name": "Main_01_Pants_1.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "254de": {
+      "importer": "gltf-material",
+      "uuid": "726f5ef7-02a9-4de8-aa2c-28b1a4ff1a7b@254de",
+      "displayName": "",
+      "id": "254de",
+      "name": "Main_01_Pants_2.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cf10e": {
+      "importer": "gltf-material",
+      "uuid": "726f5ef7-02a9-4de8-aa2c-28b1a4ff1a7b@cf10e",
+      "displayName": "",
+      "id": "cf10e",
+      "name": "Main_01_Shoes_1.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f3572": {
+      "importer": "gltf-material",
+      "uuid": "726f5ef7-02a9-4de8-aa2c-28b1a4ff1a7b@f3572",
+      "displayName": "",
+      "id": "f3572",
+      "name": "Main_01_Shirt_1.material",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7be0e": {
+      "importer": "gltf-material",
+      "uuid": "726f5ef7-02a9-4de8-aa2c-28b1a4ff1a7b@7be0e",
+      "displayName": "",
+      "id": "7be0e",
+      "name": "skin_02.material",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c4399": {
+      "importer": "gltf-material",
+      "uuid": "726f5ef7-02a9-4de8-aa2c-28b1a4ff1a7b@c4399",
+      "displayName": "",
+      "id": "c4399",
+      "name": "Main_01_Shirt_2.material",
+      "userData": {
+        "gltfIndex": 5
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "86c96": {
+      "importer": "gltf-material",
+      "uuid": "726f5ef7-02a9-4de8-aa2c-28b1a4ff1a7b@86c96",
+      "displayName": "",
+      "id": "86c96",
+      "name": "tshirt_05.material",
+      "userData": {
+        "gltfIndex": 6
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cbc64": {
+      "importer": "gltf-material",
+      "uuid": "726f5ef7-02a9-4de8-aa2c-28b1a4ff1a7b@cbc64",
+      "displayName": "",
+      "id": "cbc64",
+      "name": "Main_01_Shirt_4__red_.material",
+      "userData": {
+        "gltfIndex": 7
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "007f6": {
+      "importer": "gltf-material",
+      "uuid": "726f5ef7-02a9-4de8-aa2c-28b1a4ff1a7b@007f6",
+      "displayName": "",
+      "id": "007f6",
+      "name": "03.material",
+      "userData": {
+        "gltfIndex": 8
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "26fd0": {
+      "importer": "gltf-material",
+      "uuid": "726f5ef7-02a9-4de8-aa2c-28b1a4ff1a7b@26fd0",
+      "displayName": "",
+      "id": "26fd0",
+      "name": "Main_01_Glasses_Glass.material",
+      "userData": {
+        "gltfIndex": 9
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8c430": {
+      "importer": "gltf-material",
+      "uuid": "726f5ef7-02a9-4de8-aa2c-28b1a4ff1a7b@8c430",
+      "displayName": "",
+      "id": "8c430",
+      "name": "Main_01_Cap_Red_2.material",
+      "userData": {
+        "gltfIndex": 10
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7675d": {
+      "importer": "gltf-scene",
+      "uuid": "726f5ef7-02a9-4de8-aa2c-28b1a4ff1a7b@7675d",
+      "displayName": "",
+      "id": "7675d",
+      "name": "player.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "726f5ef7-02a9-4de8-aa2c-28b1a4ff1a7b@7675d",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "726f5ef7-02a9-4de8-aa2c-28b1a4ff1a7b@5ea8a",
+        "726f5ef7-02a9-4de8-aa2c-28b1a4ff1a7b@ec503",
+        "726f5ef7-02a9-4de8-aa2c-28b1a4ff1a7b@51f69"
+      ],
+      "skeletons": [
+        "726f5ef7-02a9-4de8-aa2c-28b1a4ff1a7b@30732",
+        "726f5ef7-02a9-4de8-aa2c-28b1a4ff1a7b@f1394",
+        "726f5ef7-02a9-4de8-aa2c-28b1a4ff1a7b@75ee4"
+      ],
+      "textures": [],
+      "materials": [
+        "726f5ef7-02a9-4de8-aa2c-28b1a4ff1a7b@ee31c",
+        "726f5ef7-02a9-4de8-aa2c-28b1a4ff1a7b@254de",
+        "726f5ef7-02a9-4de8-aa2c-28b1a4ff1a7b@cf10e",
+        "726f5ef7-02a9-4de8-aa2c-28b1a4ff1a7b@f3572",
+        "726f5ef7-02a9-4de8-aa2c-28b1a4ff1a7b@7be0e",
+        "726f5ef7-02a9-4de8-aa2c-28b1a4ff1a7b@c4399",
+        "726f5ef7-02a9-4de8-aa2c-28b1a4ff1a7b@86c96",
+        "726f5ef7-02a9-4de8-aa2c-28b1a4ff1a7b@cbc64",
+        "726f5ef7-02a9-4de8-aa2c-28b1a4ff1a7b@007f6",
+        "726f5ef7-02a9-4de8-aa2c-28b1a4ff1a7b@26fd0",
+        "726f5ef7-02a9-4de8-aa2c-28b1a4ff1a7b@8c430"
+      ],
+      "scenes": [
+        "726f5ef7-02a9-4de8-aa2c-28b1a4ff1a7b@7675d"
+      ]
+    },
+    "materials": {
+      "726f5ef7-02a9-4de8-aa2c-28b1a4ff1a7b@7be0e": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "DCC_APP_NAME": 1
+          },
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 255,
+              "g": 206,
+              "b": 145,
+              "a": 255
+            }
+          },
+          {},
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}

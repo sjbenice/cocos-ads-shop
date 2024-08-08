@@ -1,0 +1,100 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "14101d7a-53f7-46bb-966f-4d67d0d3e076",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "48695": {
+      "importer": "gltf-scene",
+      "uuid": "14101d7a-53f7-46bb-966f-4d67d0d3e076@48695",
+      "displayName": "",
+      "id": "48695",
+      "name": "Male@cheering.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "78e9d": {
+      "importer": "gltf-animation",
+      "uuid": "14101d7a-53f7-46bb-966f-4d67d0d3e076@78e9d",
+      "displayName": "",
+      "id": "78e9d",
+      "name": "cheering.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.899999976158142
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "mixamo.com",
+        "duration": 1.899999976158142,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "cheering",
+            "from": 0,
+            "to": 1.899999976158142,
+            "wrapMode": 2,
+            "previousId": "78e9d"
+          }
+        ]
+      }
+    ],
+    "redirect": "14101d7a-53f7-46bb-966f-4d67d0d3e076@48695",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "14101d7a-53f7-46bb-966f-4d67d0d3e076@48695"
+      ]
+    }
+  }
+}

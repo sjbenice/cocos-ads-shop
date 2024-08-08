@@ -1,0 +1,119 @@
+# Google
+<script src="https://tpc.googlesyndication.com/pagead/gadgets/html5/api/exitapi.js"></script>
+
+# Other
+<script src="mraid.js"></script>
+
+#Common
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-D0ZC63K2RC"></script>
+<script>
+    var clickTag = "https://play.google.com/store/apps/details?id=com.vitgames.shopexpan";
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+  
+    gtag('config', 'G-D0ZC63K2RC');
+
+    window.event_html = {
+        // getMobileOperatingSystem: function() {
+        //     var userAgent = navigator.userAgent || navigator.vendor || window["opera"];
+        //     if (/windows phone/i.test(userAgent)) {
+        //         return "Windows Phone";
+        //     }
+        //     if (/android/i.test(userAgent)) {
+        //         return "Android";
+        //     }
+        //     if (/iPad|iPhone|iPod/.test(userAgent) && !window["MSStream"]) {
+        //         return "iOS";
+        //     }
+        //     return "unknown";
+        // },
+        download: function() {
+            if (typeof clickTag !== "undefined") {
+                if (typeof mraid !== "undefined")
+                    mraid.open(clickTag);// window.mraid?
+                else
+                    window.open(clickTag);
+            }
+            // FbPlayableAd.onCTAClick();// Moloco&Facebook, NOT mraid
+            // dapi.openStoreUrl();// IronSource, NOT mraid
+            // ExitApi.exit();// Google
+            // parent.postMessage('download', '*');// Vungle, NOT mraid
+        },
+        trackStart: function() {
+          gtag('event', 'start', {
+            'event_category': 'engagement',
+            'event_label': 'Playable has loaded and opened'
+          });
+        },
+        trackFirstInteraction: function() {
+          gtag('event', 'first_interaction', {
+            'event_category': 'engagement',
+            'event_label': 'First active user interaction'
+          });
+        },
+        trackSound: function(on) {
+          gtag('event', 'sound', {
+            'event_category': 'engagement',
+            'event_label': on ? 'Sound turned on' : 'Sound turned off'
+          });
+        },
+        trackTimeSpent: function(timeSpent) {
+          gtag('event', 'time_spent', {
+            'event_category': 'engagement',
+            'event_label': 'Total time spent',
+            'value': timeSpent
+          });
+        },
+        trackFirstOrder: function() {
+          gtag('event', 'first_order', {
+            'event_category': 'commerce',
+            'event_label': 'Received an order from the first person'
+          });
+        },
+        trackKitchenUpgrade: function() {
+          gtag('event', 'kitchen_upgrade', {
+            'event_category': 'commerce',
+            'event_label': 'Bought a chef for the kitchen'
+          });
+        },
+        trackCassaUpgrade: function() {
+          gtag('event', 'cassa_upgrade', {
+            'event_category': 'commerce',
+            'event_label': 'Bought a cashier for the cash register'
+          });
+        },
+        trackSecondKitchenUpgrade: function() {
+          gtag('event', 'second_kitchen_upgrade', {
+            'event_category': 'commerce',
+            'event_label': 'Bought a second chef for the kitchen'
+          });
+        },
+        trackCompletion: function() {
+          gtag('event', 'completion', {
+            'event_category': 'engagement',
+            'event_label': 'Complete passage of the playable'
+          });
+        },
+        trackInstallButton: function() {
+          gtag('event', 'install_button', {
+            'event_category': 'engagement',
+            'event_label': 'Install button clicked'
+          });
+        },
+        trackExit: function() {
+          gtag('event', 'exit', {
+            'event_category': 'engagement',
+            'event_label': 'User exit before completion'
+          });
+        },
+        trackInaction: function(duration) {
+          gtag('event', `inaction_${duration}`, {
+            'event_category': 'engagement',
+            'event_label': `User inactivity for ${duration} seconds`
+          });
+        },
+    };
+  
+</script>
