@@ -92,11 +92,6 @@ export class FirstScene extends Component {
     // }
 
     onBtnPlay() {
-        if (this.playButton){
-            const btn = this.playButton.getComponent(Button);
-            if (btn)
-                btn.enabled = false;
-        }
         event_html_playable.download();
     }
 }

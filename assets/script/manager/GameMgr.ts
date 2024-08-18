@@ -53,6 +53,9 @@ export class GameMgr extends Component {
     @property(Node)
     guestGroup:Node = null;
 
+    @property(Node)
+    btnSound:Node = null;
+
     private _player:PlayerController = null;
     private _outputController:OutputController = null;
     private _cashController:CashController = null;
@@ -180,6 +183,11 @@ export class GameMgr extends Component {
             this._player = this.playerNode.getComponent(PlayerController);
 
         this.setState(GameMgr.State.CASH);
+
+        if (event_html_playable.hideAllButton() || event_html_playable.hideSoundButton()) {
+            if (this.btnSound)
+                this.btnSound.active = false;
+        }
     }
 
     protected createGuest(next:boolean) {

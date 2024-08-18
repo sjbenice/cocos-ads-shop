@@ -1567,7 +1567,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 270,
-      "y": -550,
+      "y": -510,
       "z": 0
     },
     "_lrot": {
@@ -2988,6 +2988,9 @@
     },
     "guestGroup": {
       "__id__": 71
+    },
+    "btnSound": {
+      "__id__": 40
     },
     "_id": "4e+zW8OB9AC6DDsY+vw835"
   },
@@ -10103,7 +10106,7 @@
     "_left": 0,
     "_right": 40,
     "_top": 0,
-    "_bottom": 40,
+    "_bottom": 80,
     "_horizontalCenter": 0,
     "_verticalCenter": 0,
     "_isAbsLeft": true,
