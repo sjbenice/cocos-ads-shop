@@ -1,8 +1,11 @@
 import { sys } from "cc";
 
-const google_play = "https://play.google.com/store/apps/details?id=com.vitgames.shopexpan";
-const apple_store = null;//"https://apps.apple.com/us/app/ad-testing/id1463016906";
-const playable = "SE_31_4111_SE_Queue_a";// a, b, c,...
+// const google_play = "https://play.google.com/store/apps/details?id=com.vitgames.shopexpan";
+// const apple_store = null;//"https://apps.apple.com/us/app/ad-testing/id1463016906";
+const google_play = "https://play.google.com/store/apps/details?id=com.vizorapps.klondike";
+const apple_store = "https://apps.apple.com/us/app/klondike-adventures-farm-game/id1127240206";
+let playable = "SE_31_4111_SE_Queue";// a, b, c,...
+let networkName = null;
 
 export class super_html_playable {
     protected _startTime:number = 0;
@@ -159,19 +162,16 @@ export class super_html_playable {
             return;
         }
 
-        let networkName = null;
-        //@ts-ignore
-        if (window.super_html && window.super_html.network){
+        if (networkName == null) {
             //@ts-ignore
-            networkName = window.super_html.network;
-        }
-
-        if (!networkName) {
-            if (document.getElementById("networkName") === null) {
-                // console.error("No network name found in index.html! Check <!--GA-subst--> and inlines!");
-                return;
+            if (window.super_html){
+                //@ts-ignore
+                if (window.super_html_channel){
+                    //@ts-ignore
+                    networkName = window.super_html_channel;
+                    playable += String.fromCharCode('a'.charCodeAt(0) + this.version() - 1);
+                }
             }
-            networkName = document.getElementById("networkName").className;
         }
         console.log("jsAddEvent event: ", eventName, ", eventPlayable: ", playable, ", channel: ", networkName);
         if (value) {
